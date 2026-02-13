@@ -48,3 +48,24 @@
   padding: 20px;
   font: arial;
 }
+
+@media (max-width: 768px) {
+  .no-content {
+    gap: 15px;
+    max-width: 95%;
+  }
+  
+  .no-image {
+    max-height: 25vh;
+  }
+  
+  .no-text {
+    font-size: 18px;
+    padding: 15px;
+  }
+  
+  .back-btn {
+    padding: 8px 15px;
+    font-size: 14px;
+  }
+}

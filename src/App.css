@@ -15,6 +15,7 @@
 .button-container {
   display: flex;
   gap: 20px;
+  align-items: center;
 }
 
 .btn {
@@ -45,4 +46,19 @@
 
 .no-btn:hover {
   transform: scale(0.5) translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .App {
+    padding-bottom: 30px;
+  }
+  
+  .btn {
+    padding: 12px 32px;
+    font-size: 16px;
+  }
+  
+  .button-container {
+    gap: 15px;
+  }
 }

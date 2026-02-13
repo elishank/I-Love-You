@@ -20,7 +20,7 @@
 
 .yes-text-box {
   position: absolute;
-  width: 150px;
+  width: 160px;
   top: 50%;
   left: calc(50% - 5px);
   transform: translate(-50%, -50%);
@@ -28,7 +28,7 @@
 }
 
 .yes-text {
-  font-size: 13.3px;
+  font-size: 14px;
   line-height: 1.6;
   color: #333333;
   text-align: center;
@@ -60,4 +60,26 @@
   max-width: 94.5%;
   max-height: 94.5vh;
   object-fit: contain;
+}
+
+@media (max-width: 768px) {
+  .yes-text-box {
+    width: 140px;
+  }
+  
+  .yes-text {
+    font-size: 13px;
+    line-height: 1.5;
+    padding: 15px 8px;
+  }
+  
+  .yes-image {
+    max-width: 95%;
+    max-height: 95vh;
+  }
+  
+  .back-btn {
+    padding: 8px 15px;
+    font-size: 14px;
+  }
 }

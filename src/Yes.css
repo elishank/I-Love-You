@@ -1,0 +1,63 @@
+.yes-page {
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.yes-content {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 90%;
+  max-height: 90vh;
+}
+
+.yes-text-box {
+  position: absolute;
+  width: 150px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+}
+
+.yes-text {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #333333;
+  text-align: center;
+  margin: 0;
+  padding: 20px 10px;
+  word-wrap: break-word;
+}
+
+.back-btn {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: transparent;
+  color: black;
+  border: none;
+  border-radius: 0px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.back-btn:hover {
+  background-color: #eae7de;
+}
+
+.yes-image {
+  max-width: 90%;
+  max-height: 90vh;
+  object-fit: contain;
+}
